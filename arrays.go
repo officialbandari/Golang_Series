@@ -15,18 +15,26 @@ func main() {
 
 	//float array
 	var farr [5]float32
-	farr[0] = 1
-	farr[1] = 2
-	farr[2] = 3
-	farr[3] = 4
+	farr[0] = 1.1
+	farr[1] = 2.0
+	farr[2] = 3.1
+	farr[3] = 4.5
 
 	fmt.Println(farr)
 
 	// string array
 	var sarr [5]string
+
+	sarr[0] = "krishna"
+	sarr[1] = "bandari"
 	fmt.Printf("%q \n", sarr)
 
 	var barr [5]bool
+	barr[0] = true
+	barr[1] = false
+	barr[2] = false
+	barr[3] = true
+
 	fmt.Println(barr)
 
 	fmt.Println("end of the array...")
